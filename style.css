@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: orange;
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: gray;
+}
+
+ul {
+    color: green;
+
+}
+p a {
+    color: white;
+}
+
+img {
+    margin-left: 389px;
+}
