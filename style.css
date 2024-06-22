@@ -1,32 +1,106 @@
+
 body {
-    background-color: black;
+
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: black;
+}
+
+div {
+    margin-top: 25px;
 }
 
 h1 {
-    color: red;
+    color: #bc4749;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
 }
 
 p {
-    color: orange;
+    color: #a7c957;
+
 }
+
+.principal > p, h3, a  {
+    margin-left: 10px;
+}
+
 
 h2 {
-    color: purple;
+    color: #386641;
+
 }
 
-h3 {
-    color: gray;
+h3, a {
+    color: #6a994e;
+    text-decoration: none;
+
 }
 
 ul {
     color: green;
+    margin-left: 20px;
 
 }
+
+ul li a {
+    color: #f2e8cf;
+}
+
 p a {
-    color: white;
+    color: #f2e8cf;
+}
+
+.principal {
+    margin-left: 100px;
+}
+
+.principal > * {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+li::marker {
+    color: #386641;
+}
+
+  ul, ol {
+    list-style-type: disc;
+}
+ul {
+    list-style-position: inside; 
+    margin-left: 10px; 
 }
 
 img {
-    margin-left: 389px;
+    height: 25px;
+    width: 25px;
+
+}
+
+.item-contato {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.icone {
+    font-size: 24px;
+}
+
+.icone-email {
+    color: red;
+}
+
+.icone-instagram {
+    color: pink;
+
+}
+
+span {
+    display: none;
 }
