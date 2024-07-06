@@ -1,106 +1,104 @@
-
-body {
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-left: 10px;
-    background-color: black;
-}
-
-div {
-    margin-top: 25px;
-}
-
-h1 {
-    color: #bc4749;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 10px;
-    font-weight: bolder;
-}
-
-p {
-    color: #a7c957;
-
-}
-
-.principal > p, h3, a  {
-    margin-left: 10px;
-}
-
-
-h2 {
-    color: #386641;
-
-}
-
-h3, a {
-    color: #6a994e;
-    text-decoration: none;
-
-}
-
-ul {
-    color: green;
-    margin-left: 20px;
-
-}
-
-ul li a {
-    color: #f2e8cf;
-}
-
-p a {
-    color: #f2e8cf;
-}
-
-.principal {
-    margin-left: 100px;
-}
-
-.principal > * {
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-}
-
-li::marker {
-    color: #386641;
-}
-
-  ul, ol {
-    list-style-type: disc;
-}
-ul {
-    list-style-position: inside; 
-    margin-left: 10px; 
+body,
+a,
+button {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 img {
-    height: 25px;
-    width: 25px;
+    display: block;
+    max-width: 100%;
+
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.cabeçalho {
+    color: black;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    font-weight: 600;
 
 }
 
-.item-contato {
+.logo {
     display: flex;
+    align-items: center;
     gap: 12px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 32px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.botao {
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.texto-principal h1 {
+    font-size: 48px;
+    line-height: 130%;
+    font-weight: 400;
+
+   
+}
+
+.texto-destaque {
+    font-weight: 800;
+}
+
+.apresentacao {
+    padding: 60px 0;
+    display: flex;
     align-items: center;
 }
 
-.icone {
-    font-size: 24px;
-}
-
-.icone-email {
-    color: #bc4749;
-}
-
-.icone-instagram {
-    color: #FF1493;
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
 
 }
 
-span {
-    display: none;
+.texto-principal p {
+    color: #71717A;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.img-apresentacao {
+    width: 50% ;
+}
+
+.rede-social {
+    background-color: black;
 }
