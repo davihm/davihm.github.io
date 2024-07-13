@@ -6,11 +6,17 @@ button {
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 img {
     display: block;
     max-width: 100%;
 
 }
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -68,7 +74,7 @@ img {
     line-height: 130%;
     font-weight: 400;
 
-   
+
 }
 
 .texto-destaque {
@@ -79,7 +85,11 @@ img {
     padding: 60px 0;
     display: flex;
     align-items: center;
+    min-height: 100vh;
 }
+
+
+
 
 .texto-principal {
     display: flex;
@@ -96,9 +106,76 @@ img {
 }
 
 .img-apresentacao {
-    width: 50% ;
+    width: 50%;
+}
+
+
+
+
+.texto-destaque-brasil {
+    color: #1FAB68;
+    font-weight: 800;
 }
 
 .rede-social {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+}
+
+.botao-redes {
+    padding: 16px 16px;
+    border: black 2px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.botao-redes:hover {
     background-color: black;
+    color: white;
+}
+
+.habilidades h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.habilidades em {
+    font-weight: 800;
+}
+
+.habilidades {
+    text-align: center;
+    min-height: 100vh;
+}
+
+.habilidades p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.icons-habilidades {
+    padding: 62px;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+}
+
+.icons-habilidades p {
+    padding: 24px;
+}
+
+.icon-html {
+    border: 2px solid black;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.icon-css {
+    border: 2px solid black;
+    padding: 24px;
+    border-radius: 5px;
 }
