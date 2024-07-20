@@ -179,3 +179,49 @@ img {
     padding: 24px;
     border-radius: 5px;
 }
+
+
+.titulo-experiencia h2 {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.titulo-experiencia em {
+    font-weight: 800;
+}
+
+.titulo-experiencia {
+    padding: 20px 0;
+}
+
+.experiencias h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.experiencias {
+    padding: 30px 24px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.experiencias p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.minhas-experiencias {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+
+.texto-experiencia {
+    border: 1px solid #71717A;
+    border-radius: 10px;
+}
