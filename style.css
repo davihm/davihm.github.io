@@ -219,9 +219,114 @@ img {
     background-color: black;
     color: white;
     min-height: 100vh;
+
 }
 
 .texto-experiencia {
     border: 1px solid #71717A;
     border-radius: 10px;
+    margin: 50px;
+}
+
+.caixa-hover :hover {
+    background-color: #27272A;
+}
+
+.descricao-experiencia {
+    padding: 0 24px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #D4D4D8;
+}
+
+.sobre-mim {
+    min-height: 100vh;
+}
+
+.conteudo-sobre-mim {
+    display: flex;
+    padding: 32px 32px;
+    gap: 80px;
+
+}
+
+.texto-sobre-mim h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.texto-sobre-mim em {
+    font-weight: 800;
+}
+
+.texto-sobre-mim {
+    flex-direction: column;
+}
+
+.texto-sobre-mim p {
+    font-size: 16px;
+    font-weight: 400;
+    color:#71717A;
+}
+
+.p-sobre-mim {
+    padding: 30px 0;
+}
+
+.meus-projetos {
+    min-height: 100vh;
+    background-color: black;
+    color: #ffffff;
+}
+
+.conteudo-projetos {
+    display: flex;
+}
+
+.titulo-projetos h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.titulo-projetos em {
+    font-weight: 800;
+}
+
+.titulo-projetos {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.projetos-img img {
+    border: none;
+    border-radius: 5px;
+}
+
+.projetos-img {
+    padding: 0 30px;
+}
+
+.texto-projetos h3 {
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.texto-projetos h4 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.texto-projetos p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #71717A;
+}
+
+.texto-projetos {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
