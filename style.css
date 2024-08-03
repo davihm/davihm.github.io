@@ -1,3 +1,11 @@
+:root {
+    --cinza-escuro: #27272A;
+    --cinza-claro: #D4D4D8;
+    --preto: #000000;
+    --branco: #ffffff;
+    --verde: #1FAB68;
+}
+
 body,
 a,
 button {
@@ -20,10 +28,11 @@ img {
 .container {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 4%;
 }
 
-.cabeçalho {
-    color: black;
+.cabecalho {
+    color: var(--preto);
     padding: 24px 0;
     display: flex;
     align-items: center;
@@ -39,26 +48,23 @@ img {
     gap: 12px;
 }
 
-.menu ul {
+.links-menu {
     display: flex;
     gap: 32px;
-
 }
 
-.menu a {
-    text-decoration: none;
-    color: black;
+.link-menu {
+    color: var(--preto);
 }
 
 .logo a {
-    text-decoration: none;
-    color: black;
+    color: var(--preto);
 
 }
 
-.botao {
-    background-color: black;
-    color: white;
+.botao-curriculo {
+    background-color: var(--preto);
+    color: var(--branco);
     border: none;
     display: flex;
     align-items: center;
@@ -69,73 +75,65 @@ img {
     border-radius: 4px;
 }
 
-.texto-principal h1 {
+.texto-banner h1 {
     font-size: 48px;
     line-height: 130%;
     font-weight: 400;
-
-
 }
 
-.texto-destaque {
+.texto-banner-negrito {
     font-weight: 800;
 }
 
-.apresentacao {
+.banner {
     padding: 60px 0;
     display: flex;
     align-items: center;
-    min-height: 100vh;
+
 }
 
-
-
-
-.texto-principal {
+.texto-banner {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
-
 }
 
-.texto-principal p {
-    color: #71717A;
+.texto-banner p {
+    color: var(--cinza-escuro);
     font-weight: 400;
     line-height: 160%;
 }
 
-.img-apresentacao {
+.img-banner {
     width: 50%;
 }
 
-
-
-
-.texto-destaque-brasil {
-    color: #1FAB68;
+.texto-banner-verde {
+    color: var(--verde);
     font-weight: 800;
 }
 
-.rede-social {
+.redes-sociais {
     margin-top: 32px;
     display: flex;
     gap: 32px;
 }
 
-.botao-redes {
+.link-redes-sociais {
+    font-size: 20px;
     padding: 16px 16px;
-    border: black 2px solid;
+    border: var(--preto) 2px solid;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: var(--preto);
 }
 
-.botao-redes:hover {
-    background-color: black;
-    color: white;
+.link-redes-sociais:hover {
+    background-color: var(--preto);
+    color: var(--branco);
 }
 
 .habilidades h2 {
@@ -149,39 +147,38 @@ img {
 
 .habilidades {
     text-align: center;
-    min-height: 100vh;
 }
 
-.habilidades p {
+
+.icone-habilidade p {
     font-size: 24px;
     font-weight: 700;
 }
 
-.icons-habilidades {
-    padding: 62px;
+.icones-habilidades {
+    padding-top: 60px;
+    padding-bottom: 100px;
     display: flex;
     gap: 64px;
     justify-content: center;
 }
 
-.icons-habilidades p {
-    padding: 24px;
-}
-
-.icon-html {
-    border: 2px solid black;
-    padding: 24px;
+.icone-habilidade {
+    font-size: 56px;
+    min-height: 190px;
+    min-width: 190px;
+    border: 2px solid var(--preto);
+    padding: 32px 24px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
 }
 
-.icon-css {
-    border: 2px solid black;
-    padding: 24px;
-    border-radius: 5px;
-}
 
-
-.titulo-experiencia h2 {
+.titulo-experiencia {
     font-size: 48px;
     font-weight: 400;
     text-align: center;
@@ -192,44 +189,40 @@ img {
     font-weight: 800;
 }
 
-.titulo-experiencia {
-    padding: 20px 0;
-}
-
-.experiencias h3 {
+.experiencia h3 {
     font-size: 24px;
     font-weight: 600;
 }
 
-.experiencias {
+.experiencia {
     padding: 30px 24px;
     display: flex;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 
 }
 
-.experiencias p {
+.experiencia p {
     font-size: 16px;
     font-weight: 600;
 }
 
 .minhas-experiencias {
-    background-color: black;
-    color: white;
-    min-height: 100vh;
-
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 60px 0;
 }
 
-.texto-experiencia {
-    border: 1px solid #71717A;
+.experiencias {
+    border: 1px solid var(--cinza-escuro);
     border-radius: 10px;
     margin: 50px;
 }
 
-.caixa-hover :hover {
-    background-color: #27272A;
+.experiencias:hover {
+    background-color: var(--cinza-escuro);
 }
 
 .descricao-experiencia {
@@ -237,12 +230,11 @@ img {
     padding-bottom: 30px;
     font-size: 16px;
     font-weight: 400;
-    color: #D4D4D8;
+    color: var(--cinza-claro);
+    line-height: 160%;
+
 }
 
-.sobre-mim {
-    min-height: 100vh;
-}
 
 .conteudo-sobre-mim {
     display: flex;
@@ -267,7 +259,9 @@ img {
 .texto-sobre-mim p {
     font-size: 16px;
     font-weight: 400;
-    color:#71717A;
+    color: var(--cinza-escuro);
+    line-height: 160%;
+
 }
 
 .p-sobre-mim {
@@ -275,13 +269,16 @@ img {
 }
 
 .meus-projetos {
-    min-height: 100vh;
-    background-color: black;
-    color: #ffffff;
+    padding: 60px 32px;
+    background-color: var(--preto);
+    color: var(--branco);
 }
 
 .conteudo-projetos {
     display: flex;
+    margin-top: 60px;
+    align-items: center;
+    gap: 40px;
 }
 
 .titulo-projetos h2 {
@@ -296,16 +293,11 @@ img {
 .titulo-projetos {
     display: flex;
     justify-content: center;
-    padding: 40px 0;
 }
 
 .projetos-img img {
     border: none;
     border-radius: 5px;
-}
-
-.projetos-img {
-    padding: 0 30px;
 }
 
 .texto-projetos h3 {
@@ -322,11 +314,34 @@ img {
 .texto-projetos p {
     font-size: 16px;
     font-weight: 400;
-    color: #71717A;
+    color: var(--cinza-claro);
+    line-height: 160%;
 }
 
 .texto-projetos {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.footer-1 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-2 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
 }
