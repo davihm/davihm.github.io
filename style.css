@@ -379,9 +379,13 @@ img {
 @media (max-width: 680px) {
     .banner {
         flex-direction: column-reverse;
+        gap: 16px;
     }
     .texto-banner {
         width: 100%;
+    }
+    .img-banner {
+        min-width: 100%;
     }
     .texto-banner h1, .habilidades h2, .titulo-experiencia, .sobre-mim h2, .meus-projetos h2 {
         font-size: 28px;
