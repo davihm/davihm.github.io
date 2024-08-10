@@ -16,7 +16,14 @@
     <div class="container">
         <header class="cabecalho">
             <div class="logo">
-                <img src="./img/logo 1.png" alt="">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M31.5294 14.2117C31.5294 18.8818 28.7623 22.9082 24.7793 24.735C26.4612 23.3496 27.5322 21.248 27.5322 18.896C27.5322 14.7642 24.2259 11.4042 20.112 11.3204C20.0574 11.3167 20.0075 11.3167 19.9529 11.3167C19.8983 11.3167 19.8485 11.3167 19.7939 11.3204C18.2673 11.4033 17.0588 12.6663 17.0588 14.2108V28.6814C17.0588 33.4748 13.1699 37.3637 8.37646 37.3637V14.2117C8.37646 7.81925 13.5605 2.63525 19.9529 2.63525C26.3454 2.63525 31.5294 7.81925 31.5294 14.2117Z"
+                        fill="black" />
+                    <path
+                        d="M21.9992 16.2582C23.1294 15.128 23.1294 13.2956 21.9992 12.1654C20.8689 11.0351 19.0365 11.0351 17.9063 12.1654C16.7761 13.2956 16.7761 15.128 17.9063 16.2582C19.0365 17.3884 20.8689 17.3884 21.9992 16.2582Z"
+                        fill="black" />
+                </svg>
                 <a href="/">Davi Hoffmann</a>
             </div>
             <nav aria-label="menu principal">
@@ -32,13 +39,13 @@
                         <a class="link-menu" href="">Projetos</a>
                     </li>
                     <li>
-                        <a class="link-menu" href="">Contato</a>
+                        <a class="link-menu" href="mailto:davihm268@gmail.com">Contato</a>
                     </li>
                 </ul>
             </nav>
             <div class="botao-curriculo-wrapper">
                 <a href="#" class="botao-curriculo">
-                    Currículo
+                    <p class="texto-curriculo">Currículo</p>
                     <ion-icon name="open-outline"></ion-icon>
                 </a>
             </div>
@@ -89,36 +96,37 @@
                 <h2 class="titulo-experiencia">Minha <em>Experiência</em></h2>
                 <ul class="experiencias">
                     <li class="experiencia">
-                        <div>
-                            <h3>Repositor de Mercadorias</h3>
-                            <p>Outubro 2023 - Presente</p>
+                        <div class="conteudo-experiencia">
+                            <div class="texto-experiencia">
+                                <div class="img-experiencia">
+                                    <img src="./img/pedrocar.webp" alt="">
+                                </div>
+                                <h3>Auxiliar de Almoxarifado</h3>
+                            </div>
+                            <p class="tempo-experiencia">Outubro 2023 - Presente</p>
                         </div>
                         <p class="descricao-experiencia">Trabalho em uma mecânica de caminhões do meu avô, chamada
                             Pedrocar. Sou responsável por organizar e repor o estoque.</p>
                     </li>
-
                 </ul>
             </div>
         </section>
-        <div class="sobre-mim">
-            <div class="conteudo-sobre-mim">
+        <section class="sobre-mim">
+            <div class="img-sobre-mim">
                 <img src="./img/Group 1000015845.png" alt="">
-                <div class="texto-sobre-mim">
-                    <h2>Sobre <em>Mim</em></h2>
-                    <div class="p-sobre-mim">
-                        <p>Meu nome é Davi Hoffmann Marchioro, tenho 15 anos e estou no 9º ano. Estudo no Colégio
-                            Unibave e
-                            trabalho na Pedrocar. Já estudei um pouco de HTML, CSS, JavaScript, Python, VisualG e
-                            Scratch.
-                        </p>
-                    </div>
+            </div>
+            <div class="texto-sobre-mim">
+                <h2>Sobre <em>Mim</em></h2>
+                <div class="p-sobre-mim">
+                    <p>Meu nome é Davi Hoffmann Marchioro, tenho 15 anos e estou no 9º ano. Estudo no Colégio
+                        Unibave e trabalho na Pedrocar. Já estudei um pouco de HTML, CSS, JavaScript, Python,
+                        VisualG e Scratch.
+                    </p>
                 </div>
             </div>
-        </div>
-        <div class="meus-projetos">
-            <div class="titulo-projetos">
-                <h2>Meus <em>Projetos</em></h2>
-            </div>
+        </section>
+        <section class="meus-projetos">
+                <h2 class="titulo-projetos">Meus <em>Projetos</em></h2>
             <div class="conteudo-projetos">
                 <div class="projetos-img">
                     <img src="./img/nlw.PNG" alt="">
@@ -128,23 +136,13 @@
                     <h4>Habits</h4>
                     <p>O Habits é um site para ajudar você a rastrear os hábitos, marcando diariamente seus hábitos já
                         feitos.</p>
-                    <a href="https://davihm.github.io/nlw-setup/"> <svg width="20" height="20" viewBox="0 0 20 20"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.8333 9.16666L17.6666 2.33333" stroke="white" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M18.3333 5.66667V1.66667H14.3333" stroke="white" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M9.16675 1.66667H7.50008C3.33341 1.66667 1.66675 3.33334 1.66675 7.5V12.5C1.66675 16.6667 3.33341 18.3333 7.50008 18.3333H12.5001C16.6667 18.3333 18.3334 16.6667 18.3334 12.5V10.8333"
-                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg> </a>
-
+                    <a class="link-projeto" href="https://davihm.github.io/nlw-setup/"> <ion-icon name="open-outline"></ion-icon> </a>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer class="footer">
-        <div class="footer-1">
+        <div class="conteudo-footer">
             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M31.5294 14.2117C31.5294 18.8818 28.7623 22.9082 24.7793 24.735C26.4612 23.3496 27.5322 21.248 27.5322 18.896C27.5322 14.7642 24.2259 11.4042 20.112 11.3204C20.0574 11.3167 20.0075 11.3167 19.9529 11.3167C19.8983 11.3167 19.8485 11.3167 19.7939 11.3204C18.2673 11.4033 17.0588 12.6663 17.0588 14.2108V28.6814C17.0588 33.4748 13.1699 37.3637 8.37646 37.3637V14.2117C8.37646 7.81925 13.5605 2.63525 19.9529 2.63525C26.3454 2.63525 31.5294 7.81925 31.5294 14.2117Z"
@@ -155,7 +153,7 @@
             </svg>
             <p>Davi Hoffmann Marchioro</p>
         </div>
-        <div class="footer-2">
+        <div class="texto-footer">
             <p>@DaviHm 2024 • Curso de Programação UNIBAVE</p>
         </div>
     </footer>
